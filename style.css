@@ -1,0 +1,78 @@
+body {
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: #e6e9ed;
+}
+h1 {
+  color: #403d39;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+h3 {
+  color: #e63946;
+}
+
+.card {
+  background-color: #f1faee;
+  width: 250px;
+  height: 100px;
+  text-align: center;
+  line-height: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+h4 {
+  color: #434a54;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+p {
+  color: #2ecc71;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer {
+  height: 35px;
+  margin-top: 20px;
+  background-color: goldenrod;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.donetion {
+  float: right;
+  margin-right: 250px;
+  text-align: center;
+  background-color: #ffc8dd;
+  border-radius: 20px;
+  width: 400px;
+  height: 550px;
+  border-bottom: 2px solid;
+  border-right: 3px solid;
+  border-color: #434a54;
+  position: sticky;
+  top: 50px;
+  z-index: -1;
+}
+
+.donate-qoute {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  background-color: #ffafcc;
+  border-radius: 5px;
+}
+.donetion h3 {
+  color: rgb(235, 116, 136);
+  text-shadow: #403d39;
+}
+img {
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+}
