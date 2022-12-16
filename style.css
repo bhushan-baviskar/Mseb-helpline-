@@ -85,6 +85,9 @@ p:hover {
   padding: 10px;
   text-align: center;
   font-size: 20px;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
 }
 .footer a {
   text-decoration: none;
