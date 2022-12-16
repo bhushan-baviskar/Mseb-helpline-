@@ -1,82 +1,104 @@
 body {
-  margin-left: 200px;
-  margin-right: 200px;
-  background-color: #e6e9ed;
-  background-image: url("https://images.unsplash.com/photo-1667938403586-eec95b202379?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1856&q=80");
-  background-size: cover;
-}
-h1 {
-  color: #403d39;
-  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  background-color: black;
   font-family: "Poppins", sans-serif;
-  font-size: 40px;
+}
+.navbar {
+  background-color: #aacc00;
+  position: fixed;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand {
+  padding-left: 35px;
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+}
+.navbar button {
+  margin-right: 20px;
+  color: white;
+}
+
+.collapse {
+  margin-right: 15%;
+}
+.heading {
+  color: white;
+  margin: 1.5rem;
+  margin-left: 15%;
+  font-size: 55px;
+  font-weight: 700;
+}
+.card {
+  background-color: #ff0054;
+  margin-bottom: 20px;
+  padding: 15px 5px;
+  width: 20em;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+.card:hover {
+  width: 22em;
 }
 .region {
-  color: #e63946;
-  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #aacc00;
 }
-
-.card {
-  background-color: #f1faee;
-  width: 250px;
-  height: 100px;
-  text-align: center;
-  line-height: 10px;
-  padding-top: 10px;
-  margin-bottom: 10px;
-  border-radius: 20px;
-}
-
 h4 {
-  color: #434a54;
-  text-transform: capitalize;
-  font-family: "Poppins", sans-serif;
+  color: white;
 }
 p {
-  color: #2ecc71;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  font-weight: 600;
   cursor: pointer;
-  text-transform: capitalize;
-  font-family: "Poppins", sans-serif;
+  width: 10rem;
+  align-self: center;
+  padding: 10px;
+}
+p:hover {
+  background-color: #aacc00;
+  color: black;
+}
+.active img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 5px;
+  position: fixed;
+  top: 550px;
+  right: 0px;
+  z-index: 1;
 }
 
 .footer {
-  height: 35px;
-  margin-top: 20px;
-  background-color: goldenrod;
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-  padding-top: 5px;
-}
-
-.donetion {
-  float: right;
-  margin-right: 250px;
-  text-align: center;
-  background-color: #ffc8dd;
-  border-radius: 20px;
-  width: 400px;
-  height: 550px;
-  border-bottom: 2px solid;
-  border-right: 3px solid;
-  border-color: #434a54;
-  position: relative;
-  top: 50px;
-  z-index: -1;
-}
-
-.donate-qoute {
-  color: white;
-  text-align: center;
+  background-color: #aacc00;
   padding: 10px;
-  background-color: #ffafcc;
-  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
 }
-.donetion h3 {
-  color: rgb(235, 116, 136);
-  text-shadow: #403d39;
+.footer a {
+  text-decoration: none;
 }
-img {
-  border-radius: 10px;
-  width: 300px;
-  height: 400px;
+.footer a:hover {
+  color: black;
+}
+@media screen and (min-width: 768px) {
+  .card {
+    margin: 2rem;
+    align-self: center;
+  }
+}
+
+.off {
+  display: none;
 }
